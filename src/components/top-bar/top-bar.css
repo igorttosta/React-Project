@@ -1,0 +1,38 @@
+.top-bar-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background: var(--light-color);
+    border-bottom: .1rem solid var(--light-color);
+    box-shadow: 0rem .1rem .3rem .1rem;
+}
+
+.top-bar-container .logo{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:var(--black-color);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.top-bar-container .icons div,
+.top-bar-container .icons a{
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.7rem;
+    line-height: 4rem;
+    background: var(--black-color);
+    color: var(--white-color);
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: .7rem;
+}
+
+.top-bar-container .icons div:hover,
+.top-bar-container .icons a:hover{
+    background: var(--orange);
+    color: var(--white-color);
+    transform: rotate(360deg);
+}
